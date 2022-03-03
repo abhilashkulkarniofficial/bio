@@ -29,7 +29,7 @@ class App extends Component {
           </div>
           <br/>
           <div className='Section'>
-          <Projects/>
+          <Projects data={data.projects}/>
           </div>
           <br/>
           <div className='Section'>
