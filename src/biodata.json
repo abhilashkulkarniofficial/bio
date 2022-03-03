@@ -1,0 +1,101 @@
+{
+    "basic":{
+        "header": "Welcome to Abhilash Kulkarni's bio!"
+    },
+    "education":[
+        {
+            "from": "Aug 2021",
+            "to": "PRESENT",
+            "uniname": "UNIVERSITY OF SOUTHERN CALIFORNIA, Los Angeles, CA",
+            "degree": "Master of Science (M.S.)",
+            "major": "Computer Science",
+            "courses": "Analysis of Algorithms, Database Systems, Operating System, Web Technologies",
+            "gpa": 3.65
+        },
+        {
+            "from": "Aug 2015",
+            "to": "Jun 2019",
+            "uniname": "B.M.S. COLLEGE OF ENGINEERING, Bengaluru, Karnataka, India",
+            "degree": "Bachelor of Engineering (B.E.)",
+            "major": "Computer Science and Engineering",
+            "courses": "Artificial Intelligence, Data Science in R, Web Programming, Mobile Application Development",
+            "gpa": 3.82
+        }
+    ],
+    "experience":[
+        {
+            "from": "May 2020",
+            "to": "Jul 2021",
+            "role": "Technical Lead - Full Stack Development",
+            "orgname": "Bloominmind HealthTech Inc., Bengaluru, India",
+            "descriptions": [
+                "Spearheaded transition of Patient Billing feature from MERN stack to AWS RDB, Vue.JS and Express.JS stack, reducing latency and increasing service efficiency by ~35% in the operations of the client.",
+                "Created Patient Payments, Insurance, and Remittance features in the Bloominmind application employing Vue.JS and AWS.",
+                "Developed AWS Connect integrations with REST APIs for the backend to automate Call Center operations.",
+                "Designed Responsive User Interface and APIs for patients to manage appointments, billings, insurance and prescriptions.",
+                "Conducted Code Reviews and bug fixes and implemented code modularity to reduce redundancy by ~10%."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Jun 2019",
+            "to": "Mar 2020",
+            "role": "Data Scientist",
+            "orgname": "Dexler Energy Pvt. Ltd., Bengaluru, India",
+            "descriptions": [
+                "Created Android Application to detect crop diseases/infections and aid farmers with data related to optimized farming practices.",
+                "Designed and developed backend REST APIs using Node.JS. Deployed APIs using GCP Cloud Functions and Firebase.",
+                "Managed Code Version Control using Github for staging and production servers and integrated with Gitlabs for CI/CD pipeline.",
+                "Assembled a dataset of ~1M images of plant diseases utilizing an array of pi-cameras in the field controlled by Raspberry Pi.",
+                "Developed Fast R-CNN to detect early onset of diseases in crops with an accuracy of ~97% and deployed on GCP Compute Engine."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Oct 2018",
+            "to": "May 2019 ",
+            "role": "Data Scientist (Internship)",
+            "orgname": "exler Holdings Pvt. Ltd., Bengaluru, India",
+            "descriptions": [
+                "Developed Hydroponics Monitoring Web Application employing MERN stack to monitor growth of crops and harvest in real-time.",
+                "Assembled a dataset for monitoring the growth of 4 varieties of plants with ~100M data points utilizing pi-cameras, IoT sensors for measuring weather parameters, and nutrient parameters controlled by Raspberry Pi.",
+                "Conceived Crop Classification and Growth model with an accuracy of ~98% employing R-CNN and Support Vector Regression."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Jun 2018",
+            "to": "Jul 2018",
+            "role": "Computer Vision Engineer (Internship)",
+            "orgname": "DeepSight AI Labs Pvt. Ltd., Bengaluru, India",
+            "descriptions": [
+                "Created Fire Localization algorithm utilizing Image processing and Security Threat Detection model by modifying YOLO v3.",
+                "Decreased run time of Object Detection model by making use of quantization technique."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Aug 2017",
+            "to": "Nov 2017",
+            "role": "Full Stack Developer (Internship)",
+            "orgname": "Mobijini (BizMobile IT Solutions), Bengaluru, India",
+            "descriptions": [
+                "Created Orderjini (Warehouse order fulfillment application) using React Native.",
+                "Selected to participate in GITEX Future Stars 2017 in Dubai to showcase Orderjini Application from India."
+            ],
+            "skills": []
+        },
+        {
+            "from": "",
+            "to": "",
+            "role": "",
+            "orgname": "",
+            "descriptions": [
+                "",
+                "",
+                ""
+            ],
+            "skills": []
+        }
+    ]
+}

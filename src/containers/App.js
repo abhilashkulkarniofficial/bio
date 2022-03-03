@@ -5,6 +5,8 @@ import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
 
+const data = require('../biodata.json')
+
 class App extends Component {
   render(){
     return (
@@ -19,11 +21,11 @@ class App extends Component {
           </p>
           <br/>
           <div className='Section'>
-          <Education/>
+          <Education data={data.education}/>
           </div>
           <br/>
           <div className='Section'>
-          <Experience/>
+          <Experience data={data.experience}/>
           </div>
           <br/>
           <div className='Section'>
