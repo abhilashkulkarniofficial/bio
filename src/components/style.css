@@ -9,3 +9,36 @@
 .Title-p {
   font-weight: 700;
 }
+
+.Title-p p > a {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 0.5px;
+  color: white;
+}
+
+.Title-p p > a:hover {
+  color: #282c34;
+  background-color: white;
+}
+
+.Title-a {
+  text-decoration: underline;
+  color: white;
+  padding: 2px;
+}
+
+.Title-a:hover {
+  text-decoration: none;
+  color: #282c34;
+  background-color: white;
+}
+
+.Project-Title-a {
+  padding: 0px;
+}
+
+.Fa-Icon {
+  font-size: large;
+  padding-top: 10px;
+}

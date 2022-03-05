@@ -1,0 +1,227 @@
+{
+    "basic":{
+        "header": "Welcome to Abhilash Kulkarni's Profile!",
+        "about": "I'm a graduate student at USC Viterbi School of Engineering pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,Android Developer and Data Scientist."
+    },
+    "education":[
+        {
+            "from": "Aug 2021",
+            "to": "PRESENT",
+            "uniname": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+            "degree": "Master of Science (M.S.)",
+            "major": "Computer Science",
+            "courses": "Analysis of Algorithms, Database Systems, Operating System, Web Technologies",
+            "gpa": 3.65,
+            "unilink": "https://viterbischool.usc.edu/",
+            "location": "Los Angeles, CA"
+        },
+        {
+            "from": "Aug 2015",
+            "to": "Jun 2019",
+            "uniname": "B.M.S. COLLEGE OF ENGINEERING",
+            "degree": "Bachelor of Engineering (B.E.)",
+            "major": "Computer Science and Engineering",
+            "courses": "Artificial Intelligence, Data Science in R, Web Programming, Mobile Application Development",
+            "gpa": 3.82,
+            "unilink": "https://www.bmsce.ac.in/",
+            "location": "Bengaluru, Karnataka, India"
+        }
+    ],
+    "experience":[
+        {
+            "from": "May 2020",
+            "to": "Jul 2021",
+            "role": "Technical Lead - Full Stack Development",
+            "orgname": "Bloominmind HealthTech Inc.",
+            "orglink": "https://bloominmind.com/",
+            "location": "Bengaluru, India",
+            "descriptions": [
+                "Spearheaded transition of Patient Billing feature from MERN stack to AWS RDB, Vue.JS and Express.JS stack, reducing latency and increasing service efficiency by ~35% in the operations of the client.",
+                "Created Patient Payments, Insurance, and Remittance features in the Bloominmind application employing Vue.JS and AWS.",
+                "Developed AWS Connect integrations with REST APIs for the backend to automate Call Center operations.",
+                "Designed Responsive User Interface and APIs for patients to manage appointments, billings, insurance and prescriptions.",
+                "Conducted Code Reviews and bug fixes and implemented code modularity to reduce redundancy by ~10%."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Jun 2019",
+            "to": "Mar 2020",
+            "role": "Data Scientist",
+            "orgname": "Dexler Energy Pvt. Ltd.",
+            "orglink": "https://www.dexlerenergy.com/",
+            "location": "Bengaluru, India",
+            "descriptions": [
+                "Created Android Application to detect crop diseases/infections and aid farmers with data related to optimized farming practices.",
+                "Designed and developed backend REST APIs using Node.JS. Deployed APIs using GCP Cloud Functions and Firebase.",
+                "Managed Code Version Control using Github for staging and production servers and integrated with Gitlabs for CI/CD pipeline.",
+                "Assembled a dataset of ~1M images of plant diseases utilizing an array of pi-cameras in the field controlled by Raspberry Pi.",
+                "Developed Fast R-CNN to detect early onset of diseases in crops with an accuracy of ~97% and deployed on GCP Compute Engine."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Oct 2018",
+            "to": "May 2019 ",
+            "role": "Data Scientist (Internship)",
+            "orgname": "Dexler Holdings Pvt. Ltd.",
+            "orglink": "https://www.dexler.com/",
+            "location": "Bengaluru, India",
+            "descriptions": [
+                "Developed Hydroponics Monitoring Web Application employing MERN stack to monitor growth of crops and harvest in real-time.",
+                "Assembled a dataset for monitoring the growth of 4 varieties of plants with ~100M data points utilizing pi-cameras, IoT sensors for measuring weather parameters, and nutrient parameters controlled by Raspberry Pi.",
+                "Conceived Crop Classification and Growth model with an accuracy of ~98% employing R-CNN and Support Vector Regression."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Jun 2018",
+            "to": "Jul 2018",
+            "role": "Computer Vision Engineer (Internship)",
+            "orgname": "DeepSight AI Labs Pvt. Ltd.",
+            "orglink": "https://deepsightailabs.incubatehub.com/",
+            "location": "Bengaluru, India",
+            "descriptions": [
+                "Created Fire Localization algorithm utilizing Image processing and Security Threat Detection model by modifying YOLO v3.",
+                "Decreased run time of Object Detection model by making use of quantization technique."
+            ],
+            "skills": []
+        },
+        {
+            "from": "Aug 2017",
+            "to": "Nov 2017",
+            "role": "Full Stack Developer (Internship)",
+            "orgname": "Mobijini (BizMobile IT Solutions)",
+            "orglink": "https://www.orderjini.com/",
+            "location": "Bengaluru, India",
+            "descriptions": [
+                "Created Orderjini (Warehouse order fulfillment application) using React Native.",
+                "Selected to participate in GITEX Future Stars 2017 in Dubai to showcase Orderjini Application from India."
+            ],
+            "skills": []
+        },
+        {
+            "from": "",
+            "to": "",
+            "role": "",
+            "orgname": "",
+            "orglink": "",
+            "descriptions": [
+                "",
+                "",
+                ""
+            ],
+            "skills": []
+        }
+    ],
+    "projects":[
+        {
+            "from": "Feb 2022",
+            "title": "Token Bucket Filter",
+            "description": "Simulated a traffic shaper that transmits/services packets controlled by a token bucket filter using multi-threading within a single process. The Token Bucket Filter is developed using four POSIX threads that run parallelly sharing the queues and token bucket. The code is implemented on UNIX-based Solaris OS.",
+            "link": "",
+            "platform": "Ubuntu 16.04/C"
+        },
+        {
+            "from": "Jan 2022",
+            "title": "Bank Transaction Sorting using Circular Doubly Linked List in C",
+            "description": "Designed an efficient circular doubly linked list in C to sort bank transactions based on their timestamp. Tested and implemented the code on UNIX-based Solaris OS.",
+            "link": "",
+            "platform": "Ubuntu 16.04/C"
+        },
+        {
+            "from": "Jun 2021",
+            "title": "Academic Staff Substitution WebApp",
+            "description": "Developed Vue.JS Application for managing and substituting academic staff. Decreased time to substitute faculty on leave by implementing efficient algorithms to search and assign alternate staff.",
+            "link": "https://asap-app.herokuapp.com/",
+            "platform": "MacOS/JavaScript/Vue.JS/Node.JS/Express.JS"
+        },
+        {
+            "from": "May 2021",
+            "title": "Vaccination Appointment Reservation WebApp",
+            "description": "Designed Web Application for searching vaccination appointments in India using Vue.JS/Express.JS framework hosted on Heroku. The application minimizes the time to book appointments by integrating automated notification using Azure Notification Hub for vaccination slots at preferred locations. The app makes use of Co-WIN Public APIs by Govt. of India to fetch vaccination data.",
+            "link": "https://my-vaccination.herokuapp.com/",
+            "platform": "MacOS/Javascript/Vue.JS/Node.JS/Express.JS"
+        },
+        {
+            "from": "Sep 2019",
+            "title": "Resume Grader for Gyanamite EdTech Pvt. Ltd.",
+            "description": "Designed and developed a Resume Grading system using Python and NLTK with an accuracy of 99%. The system performs data extraction from the resume and applies Morphological, Syntactic, and Semantic analysis to grade the resume according to the Job Description. It is integrated into the Gyanamite EdTech application that is used to teach new skills to students in Regional languages.",
+            "link": "",
+            "platform": "Windows/Python/NLTK"
+        },
+        {
+            "from": "Sep 2018",
+            "title": "ESP-based Deep Semantic Segmentation for Self-Driving Cars",
+            "description": "Conceived modified VGG16 architecture exploiting Hierarchical Feature Fusion of ESPNet and Skip Connections to increase the speed of Image segmentation from 4.4 to 8.7 FPS and achieve an accuracy of 94%. A paper is published in Springer Lecture Notes of Electrical Engineering titled “Deep Semantic Segmentation for Self-Driving Cars” describing the design and performance of the model.",
+            "link": "",
+            "platform": "MacOS/Python"
+        },
+        {
+            "from": "",
+            "title": "",
+            "description": "",
+            "link": "",
+            "platform": ""
+        }
+    ],
+    "skills":[
+        {
+            "title": "Operating System",
+            "list": [
+                "Kernel Programming",
+                "POSIX Threads",
+                "MSVC Threads",
+                "GDB"
+            ]
+        },
+        {
+            "title": "Web/Mobile App Development",
+            "list": [
+                "HTML5",
+                "CSS3",
+                "Vue.JS/Vuex",
+                "React.JS/Redux",
+                "Android Development (Java)"
+            ]
+        },
+        {
+            "title": "Backend Technologies",
+            "list": [
+                "Spring Boot",
+                "Express.JS",
+                "RESTful Web Service",
+                "Node.JS"
+            ]
+        },
+        {
+            "title": "Programming Languages",
+            "list": [
+                "JavaScript",
+                "Python",
+                "C",
+                "SQL",
+                "R"
+            ]
+        },
+        {
+            "title": "Databases and Cloud",
+            "list": [
+                "MySQL",
+                "MongoDB",
+                "Neo4J",
+                "AWS",
+                "Microsoft Azure",
+                "Google Cloud and Firebase"
+            ]
+        },
+        {
+            "title": "Data Science",
+            "list": [
+                "Machine Learning",
+                "Deep Learning",
+                "Computer Vision"
+            ]
+        }
+    ]
+}

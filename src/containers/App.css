@@ -61,7 +61,22 @@
   color: #61dafb;
 }
 
+.Head-links > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+.Head-links > a:hover {
+  color: #282c34;
+  background-color: white;
+}
+
+
 .Section {
   margin-left: 20px;
   text-align: justify;
+  margin-top: 10px;
 }
