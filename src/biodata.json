@@ -1,7 +1,8 @@
 {
     "basic":{
         "header": "Welcome to Abhilash Kulkarni's Profile!",
-        "about": "I'm a graduate student at USC Viterbi School of Engineering pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,Android Developer and Data Scientist."
+        "about": "I'm a graduate student at USC Viterbi School of Engineering pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,Android Developer and Data Scientist.",
+        "resumelink": "https://drive.google.com/file/d/1o4sBVEa_cH-t2UAxWREg-JIh3ns551Wt/view"
     },
     "education":[
         {
@@ -222,6 +223,24 @@
                 "Deep Learning",
                 "Computer Vision"
             ]
+        }
+    ],
+    "socials":[
+        {
+            "type": "LINKEDIN",
+            "link": "https://www.linkedin.com/in/abhilashkulkarniofficial/"
+        },
+        {
+            "type": "GITHUB",
+            "link": "https://github.com/abhilashkulkarniofficial"
+        },
+        {
+            "type": "INSTAGRAM",
+            "link": "https://www.instagram.com/abhilash.koolkarni/"
+        },
+        {
+            "type": "LEETCODE",
+            "link": "https://leetcode.com/abhilashkulkarni/"
         }
     ]
 }

@@ -61,6 +61,15 @@
   color: #61dafb;
 }
 
+.Header-p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.Head-links {
+  text-align: center;
+}
+
 .Head-links > a {
   text-decoration: none;
   color: white;
@@ -79,4 +88,23 @@
   margin-left: 20px;
   text-align: justify;
   margin-top: 10px;
+}
+
+.Footer-links {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Footer-links > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.Footer-links > a:hover {
+  color: #282c34;
+  background-color: white;
 }
