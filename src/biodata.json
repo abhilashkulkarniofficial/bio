@@ -1,6 +1,7 @@
 {
     "basic":{
-        "header": "Welcome to Abhilash Kulkarni's bio!"
+        "header": "Welcome to Abhilash Kulkarni's Profile!",
+        "about": "I'm a graduate student at USC Viterbi School of Engineering pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,Android Developer and Data Scientist."
     },
     "education":[
         {
@@ -147,6 +148,65 @@
             "description": "",
             "link": "",
             "platform": ""
+        }
+    ],
+    "skills":[
+        {
+            "title": "Operating System",
+            "list": [
+                "Kernel Programming",
+                "POSIX Threads",
+                "MSVC Threads",
+                "GDB"
+            ]
+        },
+        {
+            "title": "Web/Mobile App Development",
+            "list": [
+                "HTML5",
+                "CSS3",
+                "Vue.JS/Vuex",
+                "React.JS/Redux",
+                "Android Development (Java)"
+            ]
+        },
+        {
+            "title": "Backend Technologies",
+            "list": [
+                "Spring Boot",
+                "Express.JS",
+                "RESTful Web Service",
+                "Node.JS"
+            ]
+        },
+        {
+            "title": "Programming Languages",
+            "list": [
+                "JavaScript",
+                "Python",
+                "C",
+                "SQL",
+                "R"
+            ]
+        },
+        {
+            "title": "Databases and Cloud",
+            "list": [
+                "MySQL",
+                "MongoDB",
+                "Neo4J",
+                "AWS",
+                "Microsoft Azure",
+                "Google Cloud and Firebase"
+            ]
+        },
+        {
+            "title": "Data Science",
+            "list": [
+                "Machine Learning",
+                "Deep Learning",
+                "Computer Vision"
+            ]
         }
     ]
 }

@@ -12,12 +12,9 @@ class App extends Component {
     return (
       <div className="App-body">
         <div className='App-inner'>
-          <p className='Head-p'>Welcome to Abhilash Kulkarni's Profile!</p>
+          <p className='Head-p'>{data.basic.header}</p>
           <p>
-            <span className='Title-p'>ABOUT:</span> <br/><br/>
-            I'm a graduate student at USC Viterbi School of Engineering 
-            pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,
-            Android Developer and Data Scientist. <br/>
+            <span className='Title-p'>ABOUT:</span> <br/><br/> {data.basic.about} <br/>
           </p>
           <br/>
           <div className='Section'>
@@ -33,7 +30,7 @@ class App extends Component {
           </div>
           <br/>
           <div className='Section'>
-          <Skills/>
+          <Skills data={data.skills}/>
           </div>
           
 
