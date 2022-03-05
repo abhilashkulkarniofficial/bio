@@ -10,14 +10,14 @@ const Experience = (props) => {
                     <p className='Title-p'> {x.from} =&#62; {x.to} : {x.role} </p>
                     <p className='Content-p'>
                         {x.orglink !== "" ? 
-                        (<a className='Title-a' href={x.orglink}>{x.orgname}</a>) :
+                        (<a className='Title-a' href={x.orglink} target='_blank'>{x.orgname}</a>) :
                         (x.orgname)}, {x.location}
                     </p>
                     <div>
                         <ul>
                             {
                                 x.descriptions.map(function(obj, i){
-                                    return <li>{obj}</li>
+                                    return <li className='Content-li'>{obj}</li>
                                 })
                             }
                         </ul>

@@ -1,5 +1,6 @@
 .Content-p {
   margin-left: 20px;
+  line-height: 20px;
 }
 
 .Month-p {
@@ -41,4 +42,8 @@
 .Fa-Icon {
   font-size: large;
   padding-top: 10px;
+}
+
+.Content-li {
+  line-height: 20px;
 }

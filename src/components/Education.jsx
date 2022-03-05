@@ -10,10 +10,10 @@ const Education = (props) => {
                 <p className='Title-p'>
                     {x.from} =&#62; {x.to} : {" "} 
                     {x.unilink !== "" ? 
-                    (<a className='Title-a' href={x.unilink}>{x.uniname}</a>) :
+                    (<a className='Title-a' href={x.unilink} target='_blank'>{x.uniname}</a>) :
                     (x.uniname)}, {x.location}
                 </p>
-                <p className='Content-p'><b>{x.degree}</b> in {x.major} (GPA: {x.gpa})<br/><br/>
+                <p className='Content-p'><b>{x.degree}</b> in {x.major} (GPA: {x.gpa})<br/>
                 <b>Related Courses:</b> {x.courses} </p>
             </div>
         )

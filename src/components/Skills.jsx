@@ -8,7 +8,7 @@ const Skills = (props) => {
             rows.push(
                 <div className='Content-p'>
                     <p>
-                        <b>{x.title}:</b> 
+                        <b>{x.title} : </b> 
                         {
                             x.list.join(', ')
                         }

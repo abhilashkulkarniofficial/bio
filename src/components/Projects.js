@@ -8,7 +8,7 @@ const Project = (props) => {
             rows.push(
                 <div>
                     {x.link !== "" ? 
-                    (<p className='Title-p'>{x.from} =&#62; <a className='Title-a' href={x.link}>{x.title}</a>  </p>) :
+                    (<p className='Title-p'>{x.from} =&#62; <a className='Title-a' href={x.link} target='_blank'>{x.title}</a>  </p>) :
                     (<p className='Title-p'>{x.from} =&#62; {x.title}</p>)}
                     
                     <div className='Content-p'>

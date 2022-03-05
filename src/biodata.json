@@ -154,7 +154,7 @@
             "from": "Sep 2018",
             "title": "ESP-based Deep Semantic Segmentation for Self-Driving Cars",
             "description": "Conceived modified VGG16 architecture exploiting Hierarchical Feature Fusion of ESPNet and Skip Connections to increase the speed of Image segmentation from 4.4 to 8.7 FPS and achieve an accuracy of 94%. A paper is published in Springer Lecture Notes of Electrical Engineering titled “Deep Semantic Segmentation for Self-Driving Cars” describing the design and performance of the model.",
-            "link": "",
+            "link": "https://github.com/abhilashkulkarniofficial/deep-semantic-segmentation",
             "platform": "MacOS/Python"
         },
         {
