@@ -85,6 +85,7 @@
   }
   .Inline-First {
     width: 500px;
+    text-align: start;
   }
 
   .Inline-Second {
