@@ -27,17 +27,40 @@
   margin-right: 10px;
 }
 
+.Inline-element {
+  display: inline-block;
+  height: 100px;
+}
+
+.Inline-Second {
+  text-align: end;
+}
+
 @media only screen and (min-width: 320px) {
   .App-inner{
      max-width: 300px;
      font-size: 10px;
   }
+
+  .Inline-First {
+    text-align: center;
+  }
+  
  }
 
 @media only screen and (min-width: 420px) {
   .App-inner{
      max-width: 400px;
      font-size: 10px;
+  }
+
+  .Inline-First {
+    width: 350px;
+    text-align: start;
+  }
+
+  .Inline-Second {
+    display: none;
   }
  }
 
@@ -47,14 +70,33 @@
     max-width: 600px;
     font-size: 12px;
   }
+  .Inline-First {
+    width: 500px;
+  }
+
+  .Inline-Second {
+    width: 100px;
+    display: inline-block;
+  }
  }
 
  @media only screen and (min-width: 920px) {
   .App-inner{
      max-width: 900px;
      font-size: 15px;
-     
   }
+
+  .Inline-First {
+    width: 800px;
+  }
+
+  .Inline-Second {
+    width: 100px;
+  }
+ }
+
+ .Inline-Second {
+   vertical-align: middle;
  }
 
 .App-link {
@@ -62,12 +104,18 @@
 }
 
 .Header-p {
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
 }
 
 .Head-links {
-  text-align: center;
+  /* text-align: center; */
+}
+
+
+.Inline-element > img {
+  height: 70px;
+  border-radius: 50%;
 }
 
 .Head-links > a {

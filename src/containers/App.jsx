@@ -12,14 +12,20 @@ class App extends Component {
     return (
       <div className="App-body">
         <div  id='links' className='App-inner'>
-          <div className='Header-p'><p className='Head-p'>{data.basic.header}</p></div>
-          <div className='Head-links'>
-             <a href='#education'>Education</a>
-             <a href='#experience'>Experience</a>
-             <a href='#projects'>Projects</a>
-             <a href='#skills'>Skills</a>
-             <a href={data.basic.resumelink} target='_blank'>My Resume</a>
+          <div className='Inline-element Inline-First'>
+            <div className='Header-p'><p className='Head-p'>{data.basic.header}</p></div>
+            <div className='Head-links'>
+              <a href='#education'>Education</a>
+              <a href='#experience'>Experience</a>
+              <a href='#projects'>Projects</a>
+              <a href='#skills'>Skills</a>
+              <a href={data.basic.resumelink} target='_blank'>My Resume</a>
+            </div>
           </div>
+          <div className='Inline-element Inline-Second'>
+            <img src={data.basic.profilelink} alt='Profile photo'/>
+          </div>
+          
           <p>
             <span className='Title-p'>ABOUT:</span> <br/><br/> {data.basic.about} <br/>
           </p>

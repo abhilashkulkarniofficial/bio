@@ -2,7 +2,8 @@
     "basic":{
         "header": "Welcome to Abhilash Kulkarni's Profile!",
         "about": "I'm a graduate student at USC Viterbi School of Engineering pursuing Masters in Computer Science. I'm a proficient Full-Stack Web Developer,Android Developer and Data Scientist.",
-        "resumelink": "https://drive.google.com/file/d/1o4sBVEa_cH-t2UAxWREg-JIh3ns551Wt/view"
+        "resumelink": "https://drive.google.com/file/d/1o4sBVEa_cH-t2UAxWREg-JIh3ns551Wt/view",
+        "profilelink": "https://firebasestorage.googleapis.com/v0/b/eventscanner-cda73.appspot.com/o/profile.jpeg?alt=media&token=70d84320-83da-4a0c-8cc0-4932438fddf3"
     },
     "education":[
         {
