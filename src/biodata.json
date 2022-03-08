@@ -122,49 +122,70 @@
             "title": "Token Bucket Filter",
             "description": "Simulated a traffic shaper that transmits/services packets controlled by a token bucket filter using multi-threading within a single process. The Token Bucket Filter is developed using four POSIX threads that run parallelly sharing the queues and token bucket. The code is implemented on UNIX-based Solaris OS.",
             "link": "",
-            "platform": "Ubuntu 16.04/C"
+            "stack": "Ubuntu 16.04/C",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "Jan 2022",
             "title": "Bank Transaction Sorting using Circular Doubly Linked List in C",
             "description": "Designed an efficient circular doubly linked list in C to sort bank transactions based on their timestamp. Tested and implemented the code on UNIX-based Solaris OS.",
             "link": "",
-            "platform": "Ubuntu 16.04/C"
+            "stack": "Ubuntu 16.04/C",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "Jun 2021",
             "title": "Academic Staff Substitution WebApp",
             "description": "Developed Vue.JS Application for managing and substituting academic staff. Decreased time to substitute faculty on leave by implementing efficient algorithms to search and assign alternate staff.",
             "link": "https://asap-app.herokuapp.com/",
-            "platform": "MacOS/JavaScript/Vue.JS/Node.JS/Express.JS"
+            "stack": "MacOS/JavaScript/Vue.JS/Node.JS/Express.JS",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "May 2021",
             "title": "Vaccination Appointment Reservation WebApp",
             "description": "Designed Web Application for searching vaccination appointments in India using Vue.JS/Express.JS framework hosted on Heroku. The application minimizes the time to book appointments by integrating automated notification using Azure Notification Hub for vaccination slots at preferred locations. The app makes use of Co-WIN Public APIs by Govt. of India to fetch vaccination data.",
             "link": "https://my-vaccination.herokuapp.com/",
-            "platform": "MacOS/Javascript/Vue.JS/Node.JS/Express.JS"
+            "stack": "MacOS/Javascript/Vue.JS/Node.JS/Express.JS",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "Sep 2019",
             "title": "Resume Grader for Gyanamite EdTech Pvt. Ltd.",
             "description": "Designed and developed a Resume Grading system using Python and NLTK with an accuracy of 99%. The system performs data extraction from the resume and applies Morphological, Syntactic, and Semantic analysis to grade the resume according to the Job Description. It is integrated into the Gyanamite EdTech application that is used to teach new skills to students in Regional languages.",
             "link": "",
-            "platform": "Windows/Python/NLTK"
+            "stack": "Windows/Python/NLTK",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "Sep 2018",
             "title": "ESP-based Deep Semantic Segmentation for Self-Driving Cars",
             "description": "Conceived modified VGG16 architecture exploiting Hierarchical Feature Fusion of ESPNet and Skip Connections to increase the speed of Image segmentation from 4.4 to 8.7 FPS and achieve an accuracy of 94%. A paper is published in Springer Lecture Notes of Electrical Engineering titled “Deep Semantic Segmentation for Self-Driving Cars” describing the design and performance of the model.",
             "link": "https://github.com/abhilashkulkarniofficial/deep-semantic-segmentation",
-            "platform": "MacOS/Python"
+            "stack": "MacOS/Python",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         },
         {
             "from": "",
             "title": "",
             "description": "",
             "link": "",
-            "platform": ""
+            "stack": "",
+            "detailed-description": [],
+            "comments": "",
+            "major": true
         }
     ],
     "skills":[

@@ -3,10 +3,11 @@ import './style.css';
 
 const Experience = (props) => {
     var rows = []
+    var index = 0;
     for(const x of props.data){
         if(x.from !== ""){
             rows.push(
-                <div>
+                <div key={''+index}>
                     <p className='Title-p'> {x.from} =&#62; {x.to} : {x.role} </p>
                     <p className='Content-p'>
                         {x.orglink !== "" ? 
@@ -24,6 +25,7 @@ const Experience = (props) => {
                     </div>
                 </div>
             )
+            index+=1;
         }
     }
     return (

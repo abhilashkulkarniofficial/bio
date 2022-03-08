@@ -141,7 +141,7 @@
   color: white;
   margin-right: 15px;
   border: 2px solid white;
-  padding: 3px;
+  padding: 5px;
 }
 
 .Head-links > a:hover {
@@ -166,8 +166,8 @@
   color: white;
   margin-right: 15px;
   border: 2px solid white;
-  border-radius: 5px;
-  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+  padding: 5px;
 }
 
 .Footer-links > a:hover {

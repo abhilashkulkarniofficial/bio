@@ -30,20 +30,20 @@ class App extends Component {
             <span className='Title-p'>ABOUT:</span> <br/><br/> {data.basic.about} <br/>
           </p>
           <br/>
-          <div id='education' className='Section'>
-          <Education data={data.education}/>
+          <div id='education' className='Section' key="education">
+          <Education data={data.education} />
           </div>
           <br/>
-          <div id='experience' className='Section'>
-          <Experience data={data.experience}/>
+          <div id='experience' className='Section' key="experience">
+          <Experience data={data.experience} />
           </div>
           <br/>
-          <div id='projects' className='Section'>
-          <Projects data={data.projects}/>
+          <div id='projects' className='Section' key="projects">
+          <Projects data={data.projects} />
           </div>
           <br/>
-          <div id='skills' className='Section'>
-          <Skills data={data.skills}/>
+          <div id='skills' className='Section' key="skills">
+          <Skills data={data.skills} />
           </div>
           <br/>
           <div className='Footer-links'>

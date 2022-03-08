@@ -4,9 +4,10 @@ import './style.css';
 
 const Education = (props) => {
     var rows = []
+    var index = 0
     for(const x of props.data){
         rows.push(
-            <div>
+            <div key={''+index}>
                 <p className='Title-p'>
                     {x.from} =&#62; {x.to} : {" "} 
                     {x.unilink !== "" ? 
@@ -17,6 +18,7 @@ const Education = (props) => {
                 <b>Related Courses:</b> {x.courses} </p>
             </div>
         )
+        index+=1;
     }
 
     return (

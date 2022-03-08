@@ -26,7 +26,7 @@
 .Title-a {
   text-decoration: underline;
   color: white;
-  padding: 2px;
+  padding: 5px;
 }
 
 .Title-a:hover {
@@ -46,4 +46,22 @@
 
 .Content-li {
   line-height: 20px;
+}
+
+.More {
+  text-align: center;
+}
+
+.More-a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.More-a:hover {
+  text-decoration: none;
+  color: #282c34;
+  background-color: white;
 }
