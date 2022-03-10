@@ -65,3 +65,7 @@
   color: #282c34;
   background-color: white;
 }
+
+.Facts-li {
+  line-height: 25px;
+}

@@ -4,6 +4,7 @@ import Projects from '../components/Projects.js'
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
+import Funfacts from '../components/Funfacts';
 
 const data = require('../biodata.json')
 
@@ -44,6 +45,10 @@ class App extends Component {
           <br/>
           <div id='skills' className='Section' key="skills">
           <Skills data={data.skills} />
+          </div>
+          <br/>
+          <div id='facts' className='Section' key="facts">
+          <Funfacts data={data.funfacts} />
           </div>
           <br/>
           <div className='Footer-links'>
