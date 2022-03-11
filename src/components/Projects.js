@@ -31,7 +31,7 @@ const Project = (props) => {
                 <p><a href='#links'><span>&#8679;</span></a>  PROJECTS:</p>
             </div>
             {rows}
-            <div className='More'><a href='/projects' className='More-a'>Checkout more projects here <span>&#8658;</span></a></div>
+            {/* <div className='More'><a href='/bio/projects' className='More-a'>Checkout more projects here <span>&#8658;</span></a></div> */}
         </div>
     )
 }

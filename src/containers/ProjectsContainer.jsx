@@ -13,12 +13,12 @@ class ProjectsContainer extends Component {
         return (
         <div className="App-body">
             <div  id='links' className='App-inner'>
-            <div className='Inline-element Inline-First'>
+            {/* <div className='Inline-element Inline-First'>
                 <div className='Header-p'><p className='Head-p'>CHECKOUT ALL OF MY PROJECTS HERE</p></div>
                 <div className='Head-links'>
                 <a href='/bio/'>Return <span>&#8629;</span></a>
                 </div>
-            </div>
+            </div> */}
             {/* <div className='Project-Div'>
             <div>
                             <p>{"Token Bucket Filter"}</p>
