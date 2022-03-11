@@ -125,7 +125,12 @@
             "stack": "Ubuntu 16.04/C",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "Ubuntu 16.04",
+                "lang": "C",
+                "libs": "Posix Thread"
+            }
         },
         {
             "from": "Jan 2022",
@@ -135,7 +140,11 @@
             "stack": "Ubuntu 16.04/C",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "Ubuntu 16.04",
+                "lang": "C"
+            }
         },
         {
             "from": "Jun 2021",
@@ -145,7 +154,13 @@
             "stack": "MacOS/JavaScript/Vue.JS/Node.JS/Express.JS",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "MacOS",
+                "lang": "JavaScript",
+                "frontend": "Vue.JS",
+                "backend": "Node.JS / Express.JS"
+            }
         },
         {
             "from": "May 2021",
@@ -155,7 +170,13 @@
             "stack": "MacOS/Javascript/Vue.JS/Node.JS/Express.JS",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "MacOS",
+                "lang": "JavaScript",
+                "frontend": "Vue.JS",
+                "backend": "Node.JS / Express.JS"
+            }
         },
         {
             "from": "Sep 2019",
@@ -165,7 +186,12 @@
             "stack": "Windows/Python/NLTK",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "Windows",
+                "lang": "Python",
+                "libs": "NLTK"
+            }
         },
         {
             "from": "Sep 2018",
@@ -175,7 +201,12 @@
             "stack": "MacOS/Python",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "MacOS",
+                "lang": "Python",
+                "libs": "Keras / Tensorflow"
+            }
         },
         {
             "from": "",
@@ -185,7 +216,15 @@
             "stack": "",
             "detailed-description": [],
             "comments": "",
-            "major": true
+            "major": true,
+            "detailed-stack": {
+                "os": "",
+                "lang": "",
+                "libs": "",
+                "framework": "",
+                "frontend": "",
+                "backend": ""
+            }
         }
     ],
     "skills":[
