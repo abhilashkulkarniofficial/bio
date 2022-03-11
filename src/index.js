@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/bio/" element={<App />} />
-      <Route path="/bio/projects" element={<ProjectsContainer />} />
+      <Route path="/bio/" exact element={<App />} />
+      <Route path="/bio/projects" exact element={<ProjectsContainer />} />
     </Routes>
     </BrowserRouter>,
   document.getElementById('root')
