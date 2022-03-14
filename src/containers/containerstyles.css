@@ -21,6 +21,18 @@ html {
   margin: 5px;
 }
 
+.Proj-Stack > a {
+  text-decoration: underline;
+  color: white;
+  padding: 5px;
+}
+
+.Proj-Stack > a:hover {
+  text-decoration: none;
+  color: #282c34;
+  background-color: white;
+}
+
 .Project-Title {
     background-color: white;
     color: black;

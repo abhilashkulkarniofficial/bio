@@ -56,6 +56,7 @@ class ProjectsContainer extends Component {
                                 <TabList>
                                 <Tab>Description</Tab>
                                 <Tab>Stack/Frameworks</Tab>
+                                <Tab>Details</Tab>
                                 </TabList>
                                 <TabPanel>
                                 {
@@ -72,6 +73,12 @@ class ProjectsContainer extends Component {
                                 {project['detailed-stack'].framework !== undefined ? <p className='Proj-Stack'><b>Framework : </b>{project['detailed-stack'].framework}</p> : <p style={{margin: "0px"}}></p>}
                                 {project['detailed-stack'].frontend !== undefined ? <p className='Proj-Stack'><b>Frontend Framework : </b>{project['detailed-stack'].frontend}</p> : <p style={{margin: "0px"}}></p>}
                                 {project['detailed-stack'].backend !== undefined ? <p className='Proj-Stack'><b>Backend Framework : </b>{project['detailed-stack'].backend}</p> : <p style={{margin: "0px"}}></p>}
+                                {project['detailed-stack'].cloud !== undefined ? <p className='Proj-Stack'><b>Cloud Services : </b>{project['detailed-stack'].cloud}</p> : <p style={{margin: "0px"}}></p>}
+                                {project['detailed-stack'].api !== undefined ? <p className='Proj-Stack'><b>APIs Used : </b>{project['detailed-stack'].api}</p> : <p style={{margin: "0px"}}></p>}
+                                </TabPanel>
+                                <TabPanel>
+                                {project['link'] !== "" ? <p className='Proj-Stack'><b>Link to Project : </b><a href={project['link']}>Click Here</a></p> : 
+                                <p className='Proj-Stack'><b>Comments : </b>{project['comments']}</p>}
                                 </TabPanel>
                             </Tabs>
                             <br/>

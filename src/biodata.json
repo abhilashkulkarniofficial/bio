@@ -118,13 +118,52 @@
     ],
     "projects":[
         {
+            "from": "March 2022",
+            "title": "OS Kernel Programming : Weenix",
+            "description": "Implemented the basic building blocks of the OS–processes, threads and synchronization primitives (mutex). Organized a scheduler for the OS which consists of first-in-first-out queues. Developed a common interface between the OS kernel and the filesystems including file and directory lookup implementation. Implemented the abstraction for user address space mapping onto the physical memory using Virtual memory.",
+            "link": "",
+            "stack": "Ubuntu 16.04/C",
+            "detailed-description": [
+                "Implemented the basic building blocks of the OS–processes, threads and synchronization primitives (mutex).",
+                "Organized a scheduler for the OS which consists of first-in-first-out queues.",
+                "Developed a common interface between the OS kernel and the filesystems including file and directory lookup implementation.",
+                "Implemented the abstraction for user address space mapping onto the physical memory using Virtual memory."
+            ],
+            "comments": "This project is PRIVATE due to Non-Disclosure Agreement in CSCI 402 : Operating System course.",
+            "major": true,
+            "detailed-stack": {
+                "os": "Ubuntu 16.04",
+                "lang": "C",
+                "libs": "Posix Thread"
+            }
+        },
+        {
+            "from": "Feb 2022",
+            "title": "Stock Search Website",
+            "description": "Stock Search is a webpage that allows you to search for stock information using the Finnhub Stock API, and the results will be displayed in both tabular format and charts format using HighCharts. You will also provide news articles for the selected stock using the Finnhub API.",
+            "link": "",
+            "stack": "MacOS/JavaScript/Python/HTML5/CSS3/GCP",
+            "detailed-description": [],
+            "comments": "This project is PRIVATE due to Non-Disclosure Agreement in CSCI 571 : Web Technologies course.",
+            "major": true,
+            "detailed-stack": {
+                "os": "MacOS",
+                "lang": "JavaScript/Python",
+                "libs": "Finnhub / HighCharts",
+                "frontend": "HTML5 / CSS3 / Ajax",
+                "backend": "Python Flask",
+                "cloud": "Google Cloud Platform",
+                "api": "FinnHub Stock API"
+            }
+        },
+        {
             "from": "Feb 2022",
             "title": "Token Bucket Filter",
             "description": "Simulated a traffic shaper that transmits/services packets controlled by a token bucket filter using multi-threading within a single process. The Token Bucket Filter is developed using four POSIX threads that run parallelly sharing the queues and token bucket. The code is implemented on UNIX-based Solaris OS.",
             "link": "",
             "stack": "Ubuntu 16.04/C",
             "detailed-description": [],
-            "comments": "",
+            "comments": "This project is PRIVATE due to Non-Disclosure Agreement in CSCI 402 : Operating System course.",
             "major": true,
             "detailed-stack": {
                 "os": "Ubuntu 16.04",
@@ -134,12 +173,29 @@
         },
         {
             "from": "Jan 2022",
+            "title": "Event Planner Website",
+            "description": "A static website built using HTML5 and CSS3 hosted on Github Pages.",
+            "link": "",
+            "stack": "MacOS/JavaScript/HTML5/CSS3",
+            "detailed-description": [],
+            "comments": "This project is PRIVATE due to Non-Disclosure Agreement in CSCI 571 : Web Technologies course.",
+            "major": false,
+            "detailed-stack": {
+                "os": "MacOS",
+                "lang": "JavaScript",
+                "libs": "Google Fonts",
+                "frontend": "HTML5 / CSS3",
+                "backend": "Github Pages"
+            }
+        },
+        {
+            "from": "Jan 2022",
             "title": "Bank Transaction Sorting using Circular Doubly Linked List in C",
             "description": "Designed an efficient circular doubly linked list in C to sort bank transactions based on their timestamp. Tested and implemented the code on UNIX-based Solaris OS.",
             "link": "",
             "stack": "Ubuntu 16.04/C",
             "detailed-description": [],
-            "comments": "",
+            "comments": "This project is PRIVATE due to Non-Disclosure Agreement in CSCI 402 : Operating System course.",
             "major": true,
             "detailed-stack": {
                 "os": "Ubuntu 16.04",
@@ -185,7 +241,7 @@
             "link": "",
             "stack": "Windows/Python/NLTK",
             "detailed-description": [],
-            "comments": "",
+            "comments": "This product has been integrated into the EdTech platform of Gyanamite EdTech Pvt. Ltd.",
             "major": true,
             "detailed-stack": {
                 "os": "Windows",
